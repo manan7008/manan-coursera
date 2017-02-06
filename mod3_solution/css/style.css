@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F8FF;
+}
+
+/*Header Navigation Bar*/
+
+.navbar-brand{
+    height: 90px;
+}
+
+.navbar{
+     background-color: #333333;
+}
+
+.brand{
+    color: floralwhite;
+}
+
+
+#nav-list a {
+  color: red;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color:aqua; 
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+    
+    #nav-list{
+        background-color: azure;
+        margin: auto;
+        width: inherit;
+    }
+    
+    .collapse{
+        background-color:azure;
+        
+    }    
+
+  /* End Header */
+
+  }
+
+/*main body */
+
+.menu-title{
+    text-align: center;
+    margin: 10px;
+}
+
+.menu-item{
+    text-align: center; 
+}
+
+
+
